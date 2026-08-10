@@ -1,0 +1,10 @@
+- pwd — prints the current working directory
+- ls — lists files/folders in the current directory
+- ls -l — long listing format, shows permissions, owner, size, date
+- ls -a — shows hidden files (dotfiles) too
+- ls -la — combines long format and hidden files
+- ls -lh — long format with human-readable sizes (K, M, G instead of bytes)
+- cd /path — change directory using an absolute path
+- cd .. — move up one directory
+- cd ~ — go to your home directory
+- cd - — jump back to the previous directory you were in
