@@ -16,4 +16,4 @@ What surprises me is that vim panel that opens that is very tricky to close afte
 Evidence screenshort is in the evodence folder, please check.
 
 ## Related
-Next day: ../day-02-file-operations/
+Next day: [day-02-file-operations](../day-02-file-operations/)
