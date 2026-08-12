@@ -9,7 +9,7 @@ commands across 6 phases, to build full command line fluency from file navigatio
 |-----|-------|--------|------|
 | 1 | Where Am I? Basic Orientation | Done | [day-01-file-navigation](./day-01-file-navigation/) |
 | 2 | Creating, Copying, Moving, Deleting | Done | [day-02-file-operations](./day-02-file-operations/) |
-| 3 | Reading & Inspecting Files | 🔲 Not started | [day-03-file-inspection](./day-03-file-inspection/) |
+| 3 | Reading & Inspecting Files | Done | [day-03-file-inspection](./day-03-file-inspection/) |
 | 4 | Searching the Filesystem | 🔲 Not started | [day-04-filesystem-search](./day-04-filesystem-search/) |
 | 5 | Paths, Links & Tree Structures (Checkpoint) | 🔲 Not started | [day-05-links-checkpoint](./day-05-links-checkpoint/) |
 | 6 | Reading & Setting Permissions | 🔲 Not started | [day-06-permissions](./day-06-permissions/) |

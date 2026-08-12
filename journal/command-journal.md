@@ -8,11 +8,21 @@
 - cd .. — move up one directory
 - cd ~ — go to your home directory
 - cd - — jump back to the previous directory you were in
-mkdir — creates a new, empty directory (folder) in your current locationmkdir -p path/to/folder — creates parent directories automatically if they do not exist yet
-touch — creates a new, empty file or updates the timestamp of an existing file
-cp  — copies a file from the source path to the destination path
-cp -r — copies a directory and all of its contents recursively
-mv — moves or renames a file or directory depending on the path
-rm— deletes a file permanently from the file system
-rm -r — deletes a directory and all of its contents recursivename — forcefully deletes a directory and its contents without prompting for confirmation
-rmdir — removes an empty directory (fails if the folder contains any files)
+- mkdir — creates a new, empty directory (folder) in your current locationmkdir -p path/to/folder — creates parent directories automatically if they do not exist yet
+- touch — creates a new, empty file or updates the timestamp of an existing file
+- cp  — copies a file from the source path to the destination path
+- cp -r — copies a directory and all of its contents recursively
+- mv — moves or renames a file or directory depending on the path
+- rm— deletes a file permanently from the file system
+- rm -r — deletes a directory and all of its contents recursivename — forcefully deletes a directory and its contents without prompting for confirmation
+- rmdir — removes an empty directory (fails if the folder contains any files)
+- cat — prints a file's entire contents to the terminal
+- less — opens a file for interactive, scrollable viewing (q to quit)
+- head — shows the first 10 lines of a file by default
+- head -n — shows a specific number of lines from the top of a file
+- tail — shows the last 10 lines of a file by default
+- tail -f — follows a file live, printing new lines as they're added
+- wc — counts lines, words, and bytes in a file
+- wc -l — counts only the number of lines in a file
+- file — identifies a file's type (text, binary, script, etc.)
+- stat — shows detailed metadata: size, permissions, timestamps, inode
