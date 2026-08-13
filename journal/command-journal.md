@@ -26,3 +26,13 @@
 - wc -l — counts only the number of lines in a file
 - file — identifies a file's type (text, binary, script, etc.)
 - stat — shows detailed metadata: size, permissions, timestamps, inode
+- find -name — searches for files matching a name pattern within a directory tree
+- find -type — filters find results by type (f for file, d for directory, etc.)
+- find -size — filters find results by file size (e.g. +1M for larger than 1MB)
+- find -mtime — filters find results by how many days ago the file was last modified
+- find -perm — filters find results by exact permission mode
+- locate — quickly searches a prebuilt filename database instead of scanning live
+- updatedb — rebuilds the database that locate searches against
+- du — shows disk usage of files and directories
+- du -sh — shows a summarized, human-readable total disk usage for a directory
+- df -h — shows free and used space across mounted filesystems in human-readable form

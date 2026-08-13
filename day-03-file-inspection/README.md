@@ -15,6 +15,6 @@ When i was inspecting /var/log/apt/history.log, i noticed that there are plenty 
 Screenshot of the drill is in evidence/.
 
 ## Related
-Previous day: [day-02-file-operation](../day-02-file-operation/)
-Next day: [day-04-filesystem-search](../day-03-filesystem-search/)
+Previous day: [day-02-file-operation](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-02-file-operations)
+Next day: [day-04-filesystem-search]()
 

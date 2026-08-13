@@ -18,5 +18,5 @@ One honest thing is that i didn't expect that i am surprised about is how 'rm'co
 Screenshot or terminal transcript of the drill in evidence/.
 
 ## Related
-Previous day: [day-01-file-navigation](../day-01-file-navigation/)
-Next day: [day-03-file-inspection](../day-03-file-inspection/)
+Previous day: [day-01-file-navigation](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-01-file-navigation)
+Next day: [day-03-file-inspection](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-03-file-inspection)
