@@ -36,3 +36,13 @@
 - du — shows disk usage of files and directories
 - du -sh — shows a summarized, human-readable total disk usage for a directory
 - df -h — shows free and used space across mounted filesystems in human-readable form
+- tree — displays a directory's contents as a visual, indented tree structure
+- tree -L — limits the tree display to a specific number of directory levels deep
+- ln — creates a hard link, a second name pointing to the same underlying file data
+- ln -s — creates a symbolic link, a pointer file referencing another file's path
+- readlink — shows what path a symbolic link points to
+- realpath — resolves and prints the full absolute path of a file, following any symlinks
+- basename — strips the directory path from a file path, leaving just the filename
+- dirname — strips the filename from a file path, leaving just the directory
+- pushd / popd — saves your current directory on a stack and jumps to a new one (pushd), or returns to it (popd)
+- ls -lt — lists files in long format, sorted by most recently modified first

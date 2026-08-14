@@ -17,4 +17,4 @@ Screenshot or terminal transcript of the drill in evidence/.
 
 ## Related
 Previous day: [day-03-file-inspection](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-03-file-inspection)
-Next day: [day-05-links-checkpoint](../day-03-file-inspection/)
+Next day: [day-05-links-checkpoint]()
