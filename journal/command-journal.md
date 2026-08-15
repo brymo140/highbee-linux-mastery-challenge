@@ -46,3 +46,13 @@
 - dirname — strips the filename from a file path, leaving just the directory
 - pushd / popd — saves your current directory on a stack and jumps to a new one (pushd), or returns to it (popd)
 - ls -lt — lists files in long format, sorted by most recently modified first
+- ls -l — lists files in long format, showing the permission string, owner, group, size, and date
+- chmod (relative +/-) — adds or removes specific permission bits without resetting the rest
+- chmod (assignment =) — sets an exact permission for a group (owner/group/other), overwriting what was there
+- chmod 755 (octal) — sets permissions using numeric shorthand: 7=rwx, 5=r-x, 5=r-x (owner, group, other)
+- chmod 644 (octal) — sets permissions to rw- for owner, r-- for group, r-- for other
+- chmod 600 (octal) — sets permissions to rw- for owner only, nothing for group or other
+- chmod -R — applies a permission change recursively to a directory and everything inside it
+- umask — shows the default permission mask applied to newly created files/directories
+- umask -S — shows the umask in symbolic (rwx-style) form instead of numeric
+- stat -c '%A %U %G' — prints a file's permission string, owner, and group using a custom format
