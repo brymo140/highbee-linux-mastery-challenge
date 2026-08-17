@@ -17,4 +17,4 @@ Screenshot or terminal transcript of the drill in evidence/.
 
 ## Related
 Previous day: [day-04-filesystem-search](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-04-filesystem-search/)
-Next day: [day-06-permissions]()
+Next day: [day-06-permissions](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-06-permissions)

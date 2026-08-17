@@ -56,3 +56,13 @@
 - umask — shows the default permission mask applied to newly created files/directories
 - umask -S — shows the umask in symbolic (rwx-style) form instead of numeric
 - stat -c '%A %U %G' — prints a file's permission string, owner, and group using a custom format
+- chown — changes the owner of a file or directory
+- chown user:group — changes both the owner and group of a file in one command
+- chown -R — applies an ownership change recursively through a directory
+- chgrp — changes only the group of a file or directory
+- chmod u+s (SUID) — lets a program run with its owner's permissions, not the user running it
+- chmod g+s (SGID) — makes new files/folders inside a directory inherit its group automatically
+- chmod +t (sticky bit) — restricts deletion in a shared directory to a file's own owner
+- find -perm /4000 — searches the system for files that have the SUID bit set
+- getfacl — displays a file's Access Control List (fine-grained permissions beyond owner/group/other)
+- setfacl -m — modifies a file's ACL to grant specific permissions to a specific user or group
