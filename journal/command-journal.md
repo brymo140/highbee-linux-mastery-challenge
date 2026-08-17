@@ -66,3 +66,13 @@
 - find -perm /4000 — searches the system for files that have the SUID bit set
 - getfacl — displays a file's Access Control List (fine-grained permissions beyond owner/group/other)
 - setfacl -m — modifies a file's ACL to grant specific permissions to a specific user or group
+- sudo — runs a single command with elevated root privileges
+- sudo -i — starts a full interactive root login shell
+- sudo -u — runs a command as a specific user other than root
+- sudo !! — repeats the last command, this time prefixed with sudo
+- sudo -l — lists which commands your account is allowed to run with sudo
+- visudo — safely edits the sudoers file, checking syntax before saving
+- su — switches to another user account in the current session
+- su - — switches user and loads their full login environment
+- whoami — prints the current logged in username
+- id — shows your user ID, group ID, and group memberships

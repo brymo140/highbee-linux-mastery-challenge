@@ -13,8 +13,8 @@ commands across 6 phases, to build full command line fluency from file navigatio
 | 4 | Searching the Filesystem | Done | [day-04-filesystem-search](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-04-filesystem-search) |
 | 5 | Paths, Links & Tree Structures (Checkpoint) | Done | [day-05-links-checkpoint](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-05-links-checkpoint) |
 | 6 | Reading & Setting Permissions | Done | [day-06-permissions](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-06-permissions) |
-| 7 | Ownership & Special Bits | Done | [day-07-ownership](./day-07-ownership/) |
-| 8 | Privilege Escalation & Identity | 🔲 Not started | [day-08-privilege-escalation](./day-08-privilege-escalation/) |
+| 7 | Ownership & Special Bits | Done | [day-07-ownership](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-07-ownership) |
+| 8 | Privilege Escalation & Identity | Done | [day-08-privilege-escalation](./day-08-privilege-escalation/) |
 | 9 | Integrity, Encryption & Firewalling | 🔲 Not started | [day-09-integrity-firewall](./day-09-integrity-firewall/) |
 | 10 | Security Checkpoint & Audit | 🔲 Not started | [day-10-security-audit-checkpoint](./day-10-security-audit-checkpoint/) |
 | 11 | Creating & Managing Users | 🔲 Not started | [day-11-user-management](./day-11-user-management/) |
