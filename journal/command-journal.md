@@ -76,3 +76,13 @@
 - su - — switches user and loads their full login environment
 - whoami — prints the current logged in username
 - id — shows your user ID, group ID, and group memberships
+- md5sum — generates an MD5 checksum hash of a file to verify its contents
+- sha256sum — generates a stronger SHA-256 checksum hash of a file
+- gpg --gen-key — creates a new GPG public/private key pair for encryption
+- gpg --encrypt — encrypts a file using GPG so only the intended recipient can read it
+- gpg --decrypt — decrypts a GPG encrypted file using the matching private key
+- chattr +i — makes a file immutable, blocking edits or deletion even by the owner
+- lsattr — lists special file attributes, like whether immutable is set
+- ufw enable — turns on the Uncomplicated Firewall
+- ufw allow — opens a specific port or service through the firewall
+- ufw status — shows current firewall rules and whether it's active
