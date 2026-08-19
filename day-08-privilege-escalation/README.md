@@ -18,4 +18,4 @@ Screenshot or terminal transcript of the drill in evidence/.
 ## Related
 Previous day: [day-07-ownership](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-07-ownership)
 
-Next day: [day-08-privilege-escalation]()
+Next day: [day-09-integrity-firewall](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-09-integrity-firewall)

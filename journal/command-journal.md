@@ -86,3 +86,13 @@
 - ufw enable — turns on the Uncomplicated Firewall
 - ufw allow — opens a specific port or service through the firewall
 - ufw status — shows current firewall rules and whether it's active
+- find / -perm /4000 — audits the whole system for files with the SUID bit set
+- last — shows a history of recent user logins
+- lastlog — shows the most recent login time for every user account
+- w — shows who is currently logged in and what they are doing
+- who — shows a simpler list of who is currently logged in
+- groups — lists the groups the current user belongs to
+- passwd — changes a user's password
+- chage -l — shows password aging and expiry details for a user
+- lastb — shows a history of failed login attempts
+- history | grep sudo — filters command history to show only sudo commands run
