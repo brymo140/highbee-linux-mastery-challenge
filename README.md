@@ -16,8 +16,8 @@ commands across 6 phases, to build full command line fluency from file navigatio
 | 7 | Ownership & Special Bits | Done | [day-07-ownership](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-07-ownership) |
 | 8 | Privilege Escalation & Identity | Done | [day-08-privilege-escalation](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-08-privilege-escalation) |
 | 9 | Integrity, Encryption & Firewalling | Done | [day-09-integrity-firewall](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-09-integrity-firewall) |
-| 10 | Security Checkpoint & Audit | Done | [day-10-security-audit-checkpoint](./day-10-security-audit-checkpoint/) |
-| 11 | Creating & Managing Users | 🔲 Not started | [day-11-user-management](./day-11-user-management/) |
+| 10 | Security Checkpoint & Audit | Done | [day-10-security-audit-checkpoint](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-10-security-audit-checkpoint) |
+| 11 | Creating & Managing Users | Done | [day-11-user-management](./day-11-user-management/) |
 | 12 | Groups & Access Circles | 🔲 Not started | [day-12-groups](./day-12-groups/) |
 | 13 | APT Package Management | 🔲 Not started | [day-13-apt-package-management](./day-13-apt-package-management/) |
 | 14 | DNF/YUM & Alternative Installs | 🔲 Not started | [day-14-dnf-yum](./day-14-dnf-yum/) |

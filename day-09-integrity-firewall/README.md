@@ -22,4 +22,4 @@ Screenshot or terminal transcript of the drill in evidence/.
 
 Previous day: [day-08-privilege-escalation](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-08-privilege-escalation)
 
-Next day: [day-10-security-audit-checkpoint]()
+Next day: [day-10-security-audit-checkpoint](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-10-security-audit-checkpoint)

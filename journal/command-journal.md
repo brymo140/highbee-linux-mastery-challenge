@@ -96,3 +96,13 @@
 - chage -l — shows password aging and expiry details for a user
 - lastb — shows a history of failed login attempts
 - history | grep sudo — filters command history to show only sudo commands run
+- useradd — creates a new user account (bare bones, no home directory by default)
+- useradd -m — creates a new user account along with a home directory
+- useradd -m -s — creates a user with a home directory and specifies their default shell
+- adduser — a friendlier, interactive wrapper around useradd on Debian based systems
+- passwd — sets or changes a user's password
+- usermod -aG — appends a user to one or more supplementary groups without removing existing ones
+- usermod -s — changes a user's default login shell
+- usermod -l — renames a user's login name
+- userdel — deletes a user account
+- userdel -r — deletes a user account along with their home directory and mail spool
