@@ -106,3 +106,13 @@
 - usermod -l — renames a user's login name
 - userdel — deletes a user account
 - userdel -r — deletes a user account along with their home directory and mail spool
+- groupadd — creates a new group
+- groupdel — deletes an existing group
+- gpasswd -a — adds a user to a group
+- gpasswd -d — removes a user from a group
+- getent group — looks up and displays group information from the system database
+- getent passwd — looks up and displays user account information from the system database
+- groups — lists the groups the current or specified user belongs to
+- id -Gn — shows a user's group memberships by name instead of ID number
+- newgrp — temporarily switches your active group for the current session
+- cat /etc/group — displays the raw contents of the system's group database file

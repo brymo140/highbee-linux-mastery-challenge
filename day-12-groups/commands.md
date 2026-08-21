@@ -1,0 +1,10 @@
+groupadd: This command creates a new group on the system. (e.g., sudo group add developers)
+groupdel:This is the opposeite of "groupadd" as it permanently deletes an exixting group from the system. Any group that is set as any user's perimary group cannot be deleted because suplemetry group are only allowed to be deleted even if there are more than one user to mine.
+gpasswd -a:While "usermod" edits a user's account properties, "gpasswd" is a tool specifically designed to administer group peoperties and membership. This particular command with (-a) adds a specific user to a group (e.g., sudo gpasswd -a ibrahim developers).
+gpasswd -d: It deletes a secific user from group as (-d) already hints towards delete, inatantly revoking any success rights they inherit from the group. 
+getent group:(get entries) it shows a complete list of all the group configured on the system. It will show the group name, group password placeholder, group ID, and a comma-seperated lists of al memer users of the group. 
+getent passwd:This command displays a complete list of all user accounts on the system, showing usernames, user IDs (UIDs), primary group IDs (GIDs), home directories, and default login shells.
+groups:This command is used to check the current membership of a user account. this can be used for another user also if the username is included: (groups brymo124).
+id -Gn:Does the exact same thing as typing groups. The -G flag tells it to look at all group IDs, and the -n flag translates those numeric IDs into human-readable names instead of numbers.
+newgrp:Logs you into a new sub-shell session with your primary group temporarily switched to the specified group. Any new files you create during this terminal session will automatically be owned by this group instead of your standard default group. Type exit to close this session.
+cat /etc/group:This command directly dumps the contents of the system's local group configuration text file onto your screen. It shows local groups in the exact format: group_name:password:GID:user1,user2.

@@ -14,4 +14,4 @@ Screenshot or terminal transcript of the drill in evidence/.
 ## Related
 Previous day: [day-09-integrity-firewall](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-09-integrity-firewall)
 
-Next day: [day-11-user-management]()
+Next day: [day-11-user-management](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-11-user-management)
