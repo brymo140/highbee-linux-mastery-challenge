@@ -116,3 +116,13 @@
 - id -Gn — shows a user's group memberships by name instead of ID number
 - newgrp — temporarily switches your active group for the current session
 - cat /etc/group — displays the raw contents of the system's group database file
+- apt update — refreshes the local package index from configured repositories
+- apt upgrade — upgrades installed packages, without removing any to resolve conflicts
+- apt full-upgrade — upgrades installed packages, removing some if needed to resolve conflicts
+- apt install — installs a new package
+- apt remove — uninstalls a package but leaves its configuration files behind
+- apt purge — uninstalls a package along with its configuration files
+- apt autoremove — removes leftover dependency packages no longer needed by anything
+- apt search — searches available packages by keyword
+- apt show — displays detailed information about a specific package
+- dpkg -l / dpkg -L — lists installed packages, or lists the files a specific package installed
