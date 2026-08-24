@@ -126,3 +126,13 @@
 - apt search — searches available packages by keyword
 - apt show — displays detailed information about a specific package
 - dpkg -l / dpkg -L — lists installed packages, or lists the files a specific package installed
+- dnf update — updates installed packages on Fedora/RHEL based systems
+- dnf install — installs a package on Fedora/RHEL based systems
+- dnf remove — removes a package on Fedora/RHEL based systems
+- dnf search — searches for available packages by keyword on Fedora/RHEL
+- yum install — installs a package using the older RHEL/CentOS package manager
+- rpm -qa — lists all installed packages in RPM based systems
+- snap install — installs a self contained, sandboxed application package
+- add-apt-repository — adds a new software source (PPA) to the system's package list
+- dpkg -i — manually installs a local .deb package file
+- pip / npm install — installs a Python or Node.js package respectively

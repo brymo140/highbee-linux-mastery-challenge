@@ -20,4 +20,4 @@ Screenshot or terminal transcript of the drill in evidence/.
 
 Previous day: [day-11-user-management](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-11-user-management)
 
-Next day: [day-13-]()
+Next day: [day-13-apt-package-management](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-13-apt-package-management)
