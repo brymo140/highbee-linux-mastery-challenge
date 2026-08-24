@@ -20,4 +20,4 @@ Screenshot or terminal transcript of the drill in evidence/.
 
 Previous day: [day-12-groups](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-12-groups)
 
-Next day: [day-14-]()
+Next day: [day-14-dnf-yum](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-14-dnf-yum)

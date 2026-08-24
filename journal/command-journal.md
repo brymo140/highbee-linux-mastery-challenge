@@ -136,3 +136,13 @@
 - add-apt-repository — adds a new software source (PPA) to the system's package list
 - dpkg -i — manually installs a local .deb package file
 - pip / npm install — installs a Python or Node.js package respectively
+- id <user> — shows a specific user's UID, GID, and group memberships
+- getent passwd <user> — looks up a specific user's account entry from the system database
+- useradd -m -G — creates a user with a home directory and assigns supplementary groups in one step
+- passwd <user> — sets or changes a specific user's password
+- apt list --installed — lists every package currently installed on the system
+- apt list --upgradable — lists packages that have a newer version available
+- apt update && apt install -y — refreshes the package index and installs a package without a confirmation prompt
+- dpkg -l | grep — filters the installed package list to search for a specific package
+- apt autoremove — removes leftover dependencies no longer needed by anything
+- history — shows a list of previously run commands in the current shell session

@@ -20,8 +20,8 @@ commands across 6 phases, to build full command line fluency from file navigatio
 | 11 | Creating & Managing Users | Done | [day-11-user-management](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-11-user-management) |
 | 12 | Groups & Access Circles | Done | [day-12-groups](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-12-groups) |
 | 13 | APT Package Management | Done | [day-13-apt-package-management](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-13-apt-package-management) |
-| 14 | DNF/YUM & Alternative Installs | Done | [day-14-dnf-yum](./day-14-dnf-yum/) |
-| 15 | Users & Packages Checkpoint | 🔲 Not started | [day-15-provisioning-checkpoint](./day-15-provisioning-checkpoint/) |
+| 14 | DNF/YUM & Alternative Installs | Done | [day-14-dnf-yum](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-14-dnf-yum) |
+| 15 | Users & Packages Checkpoint | Done | [day-15-provisioning-checkpoint](./day-15-provisioning-checkpoint/) |
 | 16 | Environment Variables | 🔲 Not started | [day-16-environment-variables](./day-16-environment-variables/) |
 | 17 | Persisting Configuration | 🔲 Not started | [day-17-shell-configuration](./day-17-shell-configuration/) |
 | 18 | Vim Fundamentals | 🔲 Not started | [day-18-vim-fundamentals](./day-18-vim-fundamentals/) |
