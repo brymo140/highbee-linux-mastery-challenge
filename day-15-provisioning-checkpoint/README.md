@@ -17,4 +17,4 @@ Screenshot or terminal transcript of the drill in evidence/.
 ## Related
 Previous day: [day-14-dnf-yum](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-14-dnf-yum)
 
-Next day: [day-16-]()
+Next day: [day-16-environment-variables](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-16-environment-variables)

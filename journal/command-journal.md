@@ -156,3 +156,13 @@
 - echo $PATH — prints the list of directories the shell searches for executable commands
 - export PATH=$PATH: — appends a new directory to the existing PATH for the current session
 - cat /etc/environment — displays system wide environment variables set at boot
+- nano ~/.bashrc — opens the per user shell configuration file for editing
+- source ~/.bashrc — reloads the shell configuration file in the current session without restarting
+- cat ~/.bash_profile — displays the contents of the login shell profile file
+- sudo nano /etc/environment — edits system wide environment variables that apply to all users
+- sudo nano /etc/bash.bashrc — edits the system wide bash configuration that applies to all users
+- alias — creates a shortcut name for a longer command
+- unalias — removes a previously defined alias
+- type — shows whether a command is a builtin, alias, function, or external binary
+- which — shows the file path of an executable command
+- whereis — shows the binary, source, and manual page locations for a command
