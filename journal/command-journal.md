@@ -146,3 +146,13 @@
 - dpkg -l | grep — filters the installed package list to search for a specific package
 - apt autoremove — removes leftover dependencies no longer needed by anything
 - history — shows a list of previously run commands in the current shell session
+- printenv — displays all environment variables currently set
+- printenv HOME — displays the value of a single specific environment variable
+- echo $VAR — prints the value of a variable using shell expansion
+- export — sets a variable and makes it available to child processes and subshells
+- unset — removes a variable from the environment
+- env — displays the current environment, similar to printenv
+- source — runs a script in the current shell so its variables and changes persist
+- echo $PATH — prints the list of directories the shell searches for executable commands
+- export PATH=$PATH: — appends a new directory to the existing PATH for the current session
+- cat /etc/environment — displays system wide environment variables set at boot

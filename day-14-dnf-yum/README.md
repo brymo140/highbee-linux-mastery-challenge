@@ -16,4 +16,4 @@ Screenshot or terminal transcript of the drill in evidence/.
 
 ## Related
 Previous day: [day-13-apt-package-management](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-13-apt-package-management)
-Next day: [day-15-provisioning-checkpoint]()
+Next day: [day-15-provisioning-checkpoint](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-15-provisioning-checkpoint)
