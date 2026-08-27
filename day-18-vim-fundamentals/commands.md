@@ -1,0 +1,10 @@
+- vim <file>: This command open a file inside the Vim editor. If the file doesn't exist yet, it will create a brand new file with that name when you save your work.
+- i (insert mode): It is used to switch to insert mode when in command mode which is when you just opened the vim, it automatically i command mode then pressing 'i' allows you to type, edit, and delete text just like a normal notepad document.
+- Esc (command mode): Pressing the Escape key instantly drops you back into Command Mode. In this mode, keys no longer type letters; instead, they act as powerful navigation and text manipulation shortcuts. If you ever get stuck or lost in Vim, press Esc a few times.
+- :w: This command stands for write. It saves your current changes to the disk but keeps the editor open so you can continue working.
+- :wq/:x: Both commands does the same thing which is to Save your changes and immediately closes Vim, returning you to the terminal.
+- :q!: It forces Vim to quit immediately, discarding all unsaved changes you made.
+- dd: It deletes the entire line your cursor is currently resting on.
+- yy/p: yy stands for Yank which is Vim's word for copy. It copies the current line into memory. p stands for Put which is vim's word for paste. It pastes the copied or cut line directly below your cursor. 
+- :q: This command closes the vim also, but only if you haven't made any new changes to the file since your last save.
+- u/Ctrl+r: It instantly undoes your last action. While ctrl+r redoes the action you just undid.

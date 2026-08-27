@@ -23,8 +23,8 @@ commands across 6 phases, to build full command line fluency from file navigatio
 | 14 | DNF/YUM & Alternative Installs | Done | [day-14-dnf-yum](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-14-dnf-yum) |
 | 15 | Users & Packages Checkpoint | Done | [day-15-provisioning-checkpoint](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-15-provisioning-checkpoint) |
 | 16 | Environment Variables | Done | [day-16-environment-variables](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-16-environment-variables) |
-| 17 | Persisting Configuration | Done | [day-17-shell-configuration](./day-17-shell-configuration/) |
-| 18 | Vim Fundamentals | 🔲 Not started | [day-18-vim-fundamentals](./day-18-vim-fundamentals/) |
+| 17 | Persisting Configuration | Done | [day-17-shell-configuration](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-17-shell-configuration) |
+| 18 | Vim Fundamentals | Done | [day-18-vim-fundamentals](./day-18-vim-fundamentals/) |
 | 19 | Vim Navigation & Search/Replace | 🔲 Not started | [day-19-vim-search-replace](./day-19-vim-search-replace/) |
 | 20 | Text Processing & Pipes (Checkpoint) | 🔲 Not started | [day-20-text-processing-checkpoint](./day-20-text-processing-checkpoint/) |
 | 21 | Viewing Processes | 🔲 Not started | [day-21-viewing-processes](./day-21-viewing-processes/) |

@@ -166,3 +166,13 @@
 - type — shows whether a command is a builtin, alias, function, or external binary
 - which — shows the file path of an executable command
 - whereis — shows the binary, source, and manual page locations for a command
+- vim <file> — opens a file in the Vim text editor, creates it if it doesn't exist
+- i (insert mode) — switches Vim into insert mode so typed characters are entered as text
+- Esc (command mode) — returns Vim to normal mode from insert mode
+- :w — saves the current file without quitting
+- :wq / :x — saves the file and quits Vim
+- :q! — quits Vim without saving, discarding any changes
+- dd — deletes (cuts) the entire current line
+- yy / p — yanks (copies) the current line, then pastes it below the cursor
+- :q — quits Vim, but refuses if there are unsaved changes
+- u / Ctrl+r — undoes the last change, or redoes an undone change

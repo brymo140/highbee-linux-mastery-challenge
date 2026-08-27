@@ -18,4 +18,4 @@ Screenshot or terminal transcript of the drill in evidence/.
 
 Previous day: [day-15-provisioning-checkpoint](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-15-provisioning-checkpoint)
 
-Next day: [day-03-]()
+Next day: [day-17-shell-configuration](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-17-shell-configuration)
