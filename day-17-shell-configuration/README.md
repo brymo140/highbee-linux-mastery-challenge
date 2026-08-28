@@ -19,4 +19,4 @@ Screenshot or terminal transcript of the drill in evidence/.
 
 Previous day: [day-16-environment-variables](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-16-environment-variables)
 
-Next day: [day-18-](..)
+Next day: [day-18-vim-fundamentals](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-18-vim-fundamentals)

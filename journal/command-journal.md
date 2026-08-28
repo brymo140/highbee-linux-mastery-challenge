@@ -176,3 +176,13 @@
 - yy / p — yanks (copies) the current line, then pastes it below the cursor
 - :q — quits Vim, but refuses if there are unsaved changes
 - u / Ctrl+r — undoes the last change, or redoes an undone change
+- gg / G — jumps to the first line (gg) or last line (G) of the file
+- :10 (go to line) — jumps directly to a specific line number
+- / (search forward) — searches downward through the file for a pattern
+- ? (search backward) — searches upward through the file for a pattern
+- n / N — jumps to the next (n) or previous (N) search match
+- :%s/old/new/g — replaces every occurrence of a word with another across the whole file
+- dw — deletes a single word starting from the cursor
+- x — deletes a single character under the cursor
+- o / O — opens a new line below (o) or above (O) the current line and enters insert mode
+- ZZ — saves the file and quits Vim in one shortcut
