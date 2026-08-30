@@ -186,3 +186,13 @@
 - x — deletes a single character under the cursor
 - o / O — opens a new line below (o) or above (O) the current line and enters insert mode
 - ZZ — saves the file and quits Vim in one shortcut
+- grep — searches text for lines matching a pattern
+- grep -r — searches recursively through all files in a directory and its subfolders
+- grep -i — searches case insensitively
+- sort — sorts lines of text alphabetically
+- sort -n — sorts lines numerically instead of alphabetically
+- uniq — removes consecutive duplicate lines from sorted input
+- cut -d','-f — extracts specific columns from text, splitting on a chosen delimiter
+- awk '{print $1}' — prints a specific column from each line of text
+- sed 's/old/new/g' — replaces every occurrence of a pattern in text with a replacement
+- pipe chains (|) — connects the output of one command directly into the input of the next
