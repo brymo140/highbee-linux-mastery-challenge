@@ -22,4 +22,4 @@ Screenshot or terminal transcript of the drill in evidence/.
 
 Previous day: [day-18-vim-fundamentals](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-18-vim-fundamentals)
 
-Next day: [day-20-]()
+Next day: [day-20-text-processing-checkpoint](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-20-text-processing-checkpoint)

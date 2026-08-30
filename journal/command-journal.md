@@ -196,3 +196,13 @@
 - awk '{print $1}' — prints a specific column from each line of text
 - sed 's/old/new/g' — replaces every occurrence of a pattern in text with a replacement
 - pipe chains (|) — connects the output of one command directly into the input of the next
+- ps aux — shows all running processes on the system with detailed resource usage
+- ps -ef — shows all running processes in a different format, including parent process IDs
+- ps -u — shows processes owned by a specific user
+- top — displays a live, updating view of running processes and system resource usage
+- htop — an interactive, colorized, more readable alternative to top
+- pgrep — finds the process ID(s) of running processes matching a name
+- pstree — displays running processes as a visual tree showing parent-child relationships
+- lsof -i — lists open network connections and which process is using them
+- jobs — lists background jobs running in the current shell session
+- nice / renice — sets or changes a process's scheduling priority
