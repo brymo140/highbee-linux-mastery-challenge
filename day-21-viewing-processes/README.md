@@ -17,4 +17,4 @@ Screenshot or terminal transcript of the drill in evidence/.
 ## Related
 Previous day: [day-20-text-processing-checkpoint](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-20-text-processing-checkpoint)
 
-Next day: [day-22-]()
+Next day: [day-22-](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-22-process-signals)

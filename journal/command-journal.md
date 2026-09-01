@@ -216,3 +216,13 @@
 - Ctrl+Z (suspend) — pauses a running foreground process without terminating it
 - nohup — runs a command so it ignores hangup signals and survives terminal logout
 - disown — removes a job from the shell's job table so it survives even if the shell closes
+- systemctl start — starts a service immediately
+- systemctl stop — stops a running service
+- systemctl restart — fully stops and starts a service again
+- systemctl reload — re-reads a service's configuration without fully restarting it
+- systemctl enable — sets a service to automatically start at boot
+- systemctl disable — removes a service from starting automatically at boot
+- systemctl enable --now — enables a service for boot and starts it immediately, in one command
+- systemctl status — shows a service's current state and recent log activity
+- systemctl is-active — checks whether a service is currently running
+- systemctl is-enabled — checks whether a service is set to start automatically at boot

@@ -1,0 +1,10 @@
+- systemctl start — It instantly launches a specified background service (e.g., sudo systemctl start nginx).
+- systemctl stop — it will shut down a running service, freeing up system memory and closing its network ports.
+- systemctl restart — It obviously just shuts down a service and immediately starts it back up again. This is typically used to apply heavy software upgrades or force a frozen app to clean its state.
+- systemctl reload — It tells a running application to dynamically read its updated configuration files without physically shutting down. This prevents dropping active network connections. This is ideal for live web servers.
+- systemctl enable — It will configure a service to automatically start up at boot time whenever the computer reboots.
+- systemctl disable — It removes a service from starting automatically at boot.
+- systemctl enable --now — This is a combination of two commands: "systemctl start" and "systemctl enable". It enables a service for future boot and starts it immediately, in one command.
+- systemctl status — It generates a comprehensive health report for a service. It displays whether the app is active, its Process ID (PID), its memory usage, how long it has been running, and the last few lines of its log output to show recent errors.
+- systemctl is-active — This command outputs a simple one-word status string (usually active or inactive). This is frequently used inside bash automation scripts to check if a service is healthy before running a task.
+- systemctl is-enabled — It checks whether a service is set to start automatically at boot.

@@ -28,8 +28,8 @@ commands across 6 phases, to build full command line fluency from file navigatio
 | 19 | Vim Navigation & Search/Replace | Done | [day-19-vim-search-replace](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-19-vim-search-replace) |
 | 20 | Text Processing & Pipes (Checkpoint) | Done | [day-20-text-processing-checkpoint](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-20-text-processing-checkpoint) |
 | 21 | Viewing Processes | Done | [day-21-viewing-processes](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-21-viewing-processes) |
-| 22 | Controlling Processes with Signals | Done | [day-22-process-signals](./day-22-process-signals/) |
-| 23 | Init Systems & systemctl Basics | 🔲 Not started | [day-23-systemctl-basics](./day-23-systemctl-basics/) |
+| 22 | Controlling Processes with Signals | Done | [day-22-process-signals](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-22-process-signals) |
+| 23 | Init Systems & systemctl Basics | Done | [day-23-systemctl-basics](./day-23-systemctl-basics/) |
 | 24 | Deeper Service Management & Logs | 🔲 Not started | [day-24-service-logs](./day-24-service-logs/) |
 | 25 | Process & Service Checkpoint | 🔲 Not started | [day-25-operational-snapshot-checkpoint](./day-25-operational-snapshot-checkpoint/) |
 | 26 | Networking Basics | 🔲 Not started | [day-26-networking-basics](./day-26-networking-basics/) |
