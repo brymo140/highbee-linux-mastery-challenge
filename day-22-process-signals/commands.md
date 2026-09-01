@@ -1,0 +1,10 @@
+- kill — sends a termination signal (SIGTERM by default) to a process by PID
+- kill -9 — sends SIGKILL, forcefully terminating a process immediately with no cleanup
+- kill -HUP — sends SIGHUP, often used to tell a running service to reload its configuration
+- killall — terminates all processes matching an exact process name
+- pkill — terminates processes matching a name pattern
+- fg — brings a background or suspended job to the foreground
+- bg — resumes a suspended job in the background
+- Ctrl+Z (suspend) — pauses a running foreground process without terminating it
+- nohup — runs a command so it ignores hangup signals and survives terminal logout
+- disown — removes a job from the shell's job table so it survives even if the shell closes

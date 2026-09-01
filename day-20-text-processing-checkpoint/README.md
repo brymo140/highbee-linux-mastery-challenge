@@ -19,4 +19,4 @@ Screenshot or terminal transcript of the drill in evidence/.
 
 Previous day: [day-19-vim-search-replace](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-19-vim-search-replace)
 
-Next day: [day-21-]()
+Next day: [day-21-viewing-processes](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-21-viewing-processes)
