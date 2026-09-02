@@ -17,4 +17,4 @@ Screenshot or terminal transcript of the drill in evidence/.
 ## Related
 Previous day: [day-21-viewing-processes](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-21-viewing-processes)
 
-Next day: [day-23-systemctl-basics](../day-23-systemctl-basics/)
+Next day: [day-23-systemctl-basics](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-23-systemctl-basics)

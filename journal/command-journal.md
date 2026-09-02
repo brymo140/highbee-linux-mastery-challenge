@@ -226,3 +226,13 @@
 - systemctl status — shows a service's current state and recent log activity
 - systemctl is-active — checks whether a service is currently running
 - systemctl is-enabled — checks whether a service is set to start automatically at boot
+- systemctl list-units --type=service — lists all currently loaded service units on the system
+- systemctl list-units --state=failed — lists only services that failed to start correctly
+- systemctl daemon-reload — refreshes systemd's knowledge of unit files after manual changes
+- journalctl — displays the full systemd journal log
+- journalctl -f — follows the journal log live, showing new entries as they happen
+- journalctl -u — filters journal logs to a specific service unit
+- journalctl --since — filters journal logs to entries after a specific time
+- journalctl -p err — filters journal logs to error priority entries only
+- tail -f /var/log/syslog — follows the general system log file live
+- tail -f /var/log/auth.log — follows the authentication log file live
