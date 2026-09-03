@@ -30,8 +30,8 @@ commands across 6 phases, to build full command line fluency from file navigatio
 | 21 | Viewing Processes | Done | [day-21-viewing-processes](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-21-viewing-processes) |
 | 22 | Controlling Processes with Signals | Done | [day-22-process-signals](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-22-process-signals) |
 | 23 | Init Systems & systemctl Basics | Done | [day-23-systemctl-basics](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-23-systemctl-basics) |
-| 24 | Deeper Service Management & Logs | Done | [day-24-service-logs](./day-24-service-logs/) |
-| 25 | Process & Service Checkpoint | 🔲 Not started | [day-25-operational-snapshot-checkpoint](./day-25-operational-snapshot-checkpoint/) |
+| 24 | Deeper Service Management & Logs | Done | [day-24-service-logs](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-24-service-logs) |
+| 25 | Process & Service Checkpoint | Done | [day-25-operational-snapshot-checkpoint](./day-25-operational-snapshot-checkpoint) |
 | 26 | Networking Basics | 🔲 Not started | [day-26-networking-basics](./day-26-networking-basics/) |
 | 27 | Remote Access & File Transfer | 🔲 Not started | [day-27-ssh-file-transfer](./day-27-ssh-file-transfer/) |
 | 28 | Bash Scripting Foundations | 🔲 Not started | [day-28-bash-scripting](./day-28-bash-scripting/) |

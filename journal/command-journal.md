@@ -236,3 +236,13 @@
 - journalctl -p err — filters journal logs to error priority entries only
 - tail -f /var/log/syslog — follows the general system log file live
 - tail -f /var/log/auth.log — follows the authentication log file live
+- ps aux | grep — filters the full process list to search for a specific process
+- systemctl status <svc> — shows a specific service's current state and recent activity
+- journalctl -u <svc> --since today — shows today's log entries for a specific service
+- kill -0 (liveness check) — checks whether a process is still running without sending it a real signal
+- uptime — shows how long the system has been running and its load averages
+- free -h — shows memory and swap usage in human-readable form
+- vmstat — reports system performance statistics like CPU, memory, and IO over time
+- iostat — reports disk input/output statistics
+- watch — repeatedly re-runs a command at a set interval, refreshing the output live
+- crontab -e / crontab -l — edits or lists a user's scheduled cron jobs

@@ -19,4 +19,4 @@ Screenshot or terminal transcript of the drill in evidence/.
 
 Previous day: [day-22-process-signals](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-22-process-signals)
 
-Next day: [day-24-service-logs](../day-24-service-logs/)
+Next day: [day-24-service-logs](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-24-service-logs)
