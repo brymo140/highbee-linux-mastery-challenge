@@ -246,3 +246,13 @@
 - iostat — reports disk input/output statistics
 - watch — repeatedly re-runs a command at a set interval, refreshing the output live
 - crontab -e / crontab -l — edits or lists a user's scheduled cron jobs
+- ip a — shows all network interfaces and their assigned IP addresses
+- ip route — shows the system's routing table, including the default gateway
+- ping -c — sends a limited number of ICMP echo requests to test connectivity to a host
+- curl — transfers data from or to a URL, commonly used to fetch web content
+- curl -I — fetches only the HTTP response headers from a URL, not the body
+- wget — downloads files from a URL directly to disk
+- netstat -tulnp — lists listening TCP/UDP ports and the processes using them (older tool)
+- ss -tulnp — lists listening TCP/UDP ports and the processes using them (modern replacement for netstat)
+- hostname — displays the system's hostname
+- hostnamectl — displays detailed system identity info including hostname, OS, and kernel version

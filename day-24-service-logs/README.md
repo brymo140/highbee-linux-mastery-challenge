@@ -14,4 +14,4 @@ Screenshot or terminal transcript of the drill in evidence/.
 ## Related
 Previous day: [day-23-systemctl-basics](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-23-systemctl-basics)
 
-Next day: [day-25-operational-snapshot-checkpoint](../day-25-operational-snapshot-checkpoint/)
+Next day: [day-25-operational-snapshot-checkpoint](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-25-operational-snapshot-checkpoint)
