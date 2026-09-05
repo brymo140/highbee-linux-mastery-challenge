@@ -17,4 +17,4 @@ Screenshot or terminal transcript of the drill in evidence/.
 ## Related
 Previous day: [day-24-service-logs](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-24-service-logs)
 
-Next day: [day-26-networking-basics](../day-26-networking-basics/)
+Next day: [day-26-networking-basics](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-26-networking-basics)

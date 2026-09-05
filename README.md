@@ -32,8 +32,8 @@ commands across 6 phases, to build full command line fluency from file navigatio
 | 23 | Init Systems & systemctl Basics | Done | [day-23-systemctl-basics](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-23-systemctl-basics) |
 | 24 | Deeper Service Management & Logs | Done | [day-24-service-logs](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-24-service-logs) |
 | 25 | Process & Service Checkpoint | Done | [day-25-operational-snapshot-checkpoint](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-25-operational-snapshot-checkpoint) |
-| 26 | Networking Basics | Done | [day-26-networking-basics](./day-26-networking-basics/) |
-| 27 | Remote Access & File Transfer | 🔲 Not started | [day-27-ssh-file-transfer](./day-27-ssh-file-transfer/) |
+| 26 | Networking Basics | Done | [day-26-networking-basics](https://github.com/brymo140/highbee-linux-mastery-challenge/tree/main/day-26-networking-basics) |
+| 27 | Remote Access & File Transfer | Done | [day-27-ssh-file-transfer](..day-27-) |
 | 28 | Bash Scripting Foundations | 🔲 Not started | [day-28-bash-scripting](./day-28-bash-scripting/) |
 | 29 | Functions, Arguments & Automation | 🔲 Not started | [day-29-functions-automation](./day-29-functions-automation/) |
 | 30 | Capstone: Full System Command Mastery Review | 🔲 Not started | [day-30-capstone](./day-30-capstone/) |

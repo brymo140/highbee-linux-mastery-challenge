@@ -256,3 +256,13 @@
 - ss -tulnp — lists listening TCP/UDP ports and the processes using them (modern replacement for netstat)
 - hostname — displays the system's hostname
 - hostnamectl — displays detailed system identity info including hostname, OS, and kernel version
+- ssh — connects to a remote (or local) machine over a secure shell session
+- ssh -p — specifies a non-default port to connect through
+- ssh -i — specifies a particular private key file to authenticate with
+- ssh-keygen — generates a new public/private SSH key pair
+- ssh-copy-id — copies your public key to a remote host's authorized_keys file
+- scp — securely copies files between machines over SSH
+- sftp — opens an interactive secure file transfer session
+- rsync — synchronizes files between machines, only transferring what has changed
+- ~/.ssh/config — a config file that stores shortcuts and settings for specific SSH hosts
+- sshd_config hardening — refers to security settings in the SSH server config, like disabling root login or password auth
