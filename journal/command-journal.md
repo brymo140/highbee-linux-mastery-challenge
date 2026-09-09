@@ -8,3 +8,282 @@
 - cd .. — move up one directory
 - cd ~ — go to your home directory
 - cd - — jump back to the previous directory you were in
+- mkdir — creates a new, empty directory (folder) in your current locationmkdir -p path/to/folder — creates parent directories automatically if they do not exist yet
+- touch — creates a new, empty file or updates the timestamp of an existing file
+- cp  — copies a file from the source path to the destination path
+- cp -r — copies a directory and all of its contents recursively
+- mv — moves or renames a file or directory depending on the path
+- rm— deletes a file permanently from the file system
+- rm -r — deletes a directory and all of its contents recursivename — forcefully deletes a directory and its contents without prompting for confirmation
+- rmdir — removes an empty directory (fails if the folder contains any files)
+- cat — prints a file's entire contents to the terminal
+- less — opens a file for interactive, scrollable viewing (q to quit)
+- head — shows the first 10 lines of a file by default
+- head -n — shows a specific number of lines from the top of a file
+- tail — shows the last 10 lines of a file by default
+- tail -f — follows a file live, printing new lines as they're added
+- wc — counts lines, words, and bytes in a file
+- wc -l — counts only the number of lines in a file
+- file — identifies a file's type (text, binary, script, etc.)
+- stat — shows detailed metadata: size, permissions, timestamps, inode
+- find -name — searches for files matching a name pattern within a directory tree
+- find -type — filters find results by type (f for file, d for directory, etc.)
+- find -size — filters find results by file size (e.g. +1M for larger than 1MB)
+- find -mtime — filters find results by how many days ago the file was last modified
+- find -perm — filters find results by exact permission mode
+- locate — quickly searches a prebuilt filename database instead of scanning live
+- updatedb — rebuilds the database that locate searches against
+- du — shows disk usage of files and directories
+- du -sh — shows a summarized, human-readable total disk usage for a directory
+- df -h — shows free and used space across mounted filesystems in human-readable form
+- tree — displays a directory's contents as a visual, indented tree structure
+- tree -L — limits the tree display to a specific number of directory levels deep
+- ln — creates a hard link, a second name pointing to the same underlying file data
+- ln -s — creates a symbolic link, a pointer file referencing another file's path
+- readlink — shows what path a symbolic link points to
+- realpath — resolves and prints the full absolute path of a file, following any symlinks
+- basename — strips the directory path from a file path, leaving just the filename
+- dirname — strips the filename from a file path, leaving just the directory
+- pushd / popd — saves your current directory on a stack and jumps to a new one (pushd), or returns to it (popd)
+- ls -lt — lists files in long format, sorted by most recently modified first
+- ls -l — lists files in long format, showing the permission string, owner, group, size, and date
+- chmod (relative +/-) — adds or removes specific permission bits without resetting the rest
+- chmod (assignment =) — sets an exact permission for a group (owner/group/other), overwriting what was there
+- chmod 755 (octal) — sets permissions using numeric shorthand: 7=rwx, 5=r-x, 5=r-x (owner, group, other)
+- chmod 644 (octal) — sets permissions to rw- for owner, r-- for group, r-- for other
+- chmod 600 (octal) — sets permissions to rw- for owner only, nothing for group or other
+- chmod -R — applies a permission change recursively to a directory and everything inside it
+- umask — shows the default permission mask applied to newly created files/directories
+- umask -S — shows the umask in symbolic (rwx-style) form instead of numeric
+- stat -c '%A %U %G' — prints a file's permission string, owner, and group using a custom format
+- chown — changes the owner of a file or directory
+- chown user:group — changes both the owner and group of a file in one command
+- chown -R — applies an ownership change recursively through a directory
+- chgrp — changes only the group of a file or directory
+- chmod u+s (SUID) — lets a program run with its owner's permissions, not the user running it
+- chmod g+s (SGID) — makes new files/folders inside a directory inherit its group automatically
+- chmod +t (sticky bit) — restricts deletion in a shared directory to a file's own owner
+- find -perm /4000 — searches the system for files that have the SUID bit set
+- getfacl — displays a file's Access Control List (fine-grained permissions beyond owner/group/other)
+- setfacl -m — modifies a file's ACL to grant specific permissions to a specific user or group
+- sudo — runs a single command with elevated root privileges
+- sudo -i — starts a full interactive root login shell
+- sudo -u — runs a command as a specific user other than root
+- sudo !! — repeats the last command, this time prefixed with sudo
+- sudo -l — lists which commands your account is allowed to run with sudo
+- visudo — safely edits the sudoers file, checking syntax before saving
+- su — switches to another user account in the current session
+- su - — switches user and loads their full login environment
+- whoami — prints the current logged in username
+- id — shows your user ID, group ID, and group memberships
+- md5sum — generates an MD5 checksum hash of a file to verify its contents
+- sha256sum — generates a stronger SHA-256 checksum hash of a file
+- gpg --gen-key — creates a new GPG public/private key pair for encryption
+- gpg --encrypt — encrypts a file using GPG so only the intended recipient can read it
+- gpg --decrypt — decrypts a GPG encrypted file using the matching private key
+- chattr +i — makes a file immutable, blocking edits or deletion even by the owner
+- lsattr — lists special file attributes, like whether immutable is set
+- ufw enable — turns on the Uncomplicated Firewall
+- ufw allow — opens a specific port or service through the firewall
+- ufw status — shows current firewall rules and whether it's active
+- find / -perm /4000 — audits the whole system for files with the SUID bit set
+- last — shows a history of recent user logins
+- lastlog — shows the most recent login time for every user account
+- w — shows who is currently logged in and what they are doing
+- who — shows a simpler list of who is currently logged in
+- groups — lists the groups the current user belongs to
+- passwd — changes a user's password
+- chage -l — shows password aging and expiry details for a user
+- lastb — shows a history of failed login attempts
+- history | grep sudo — filters command history to show only sudo commands run
+- useradd — creates a new user account (bare bones, no home directory by default)
+- useradd -m — creates a new user account along with a home directory
+- useradd -m -s — creates a user with a home directory and specifies their default shell
+- adduser — a friendlier, interactive wrapper around useradd on Debian based systems
+- passwd — sets or changes a user's password
+- usermod -aG — appends a user to one or more supplementary groups without removing existing ones
+- usermod -s — changes a user's default login shell
+- usermod -l — renames a user's login name
+- userdel — deletes a user account
+- userdel -r — deletes a user account along with their home directory and mail spool
+- groupadd — creates a new group
+- groupdel — deletes an existing group
+- gpasswd -a — adds a user to a group
+- gpasswd -d — removes a user from a group
+- getent group — looks up and displays group information from the system database
+- getent passwd — looks up and displays user account information from the system database
+- groups — lists the groups the current or specified user belongs to
+- id -Gn — shows a user's group memberships by name instead of ID number
+- newgrp — temporarily switches your active group for the current session
+- cat /etc/group — displays the raw contents of the system's group database file
+- apt update — refreshes the local package index from configured repositories
+- apt upgrade — upgrades installed packages, without removing any to resolve conflicts
+- apt full-upgrade — upgrades installed packages, removing some if needed to resolve conflicts
+- apt install — installs a new package
+- apt remove — uninstalls a package but leaves its configuration files behind
+- apt purge — uninstalls a package along with its configuration files
+- apt autoremove — removes leftover dependency packages no longer needed by anything
+- apt search — searches available packages by keyword
+- apt show — displays detailed information about a specific package
+- dpkg -l / dpkg -L — lists installed packages, or lists the files a specific package installed
+- dnf update — updates installed packages on Fedora/RHEL based systems
+- dnf install — installs a package on Fedora/RHEL based systems
+- dnf remove — removes a package on Fedora/RHEL based systems
+- dnf search — searches for available packages by keyword on Fedora/RHEL
+- yum install — installs a package using the older RHEL/CentOS package manager
+- rpm -qa — lists all installed packages in RPM based systems
+- snap install — installs a self contained, sandboxed application package
+- add-apt-repository — adds a new software source (PPA) to the system's package list
+- dpkg -i — manually installs a local .deb package file
+- pip / npm install — installs a Python or Node.js package respectively
+- id <user> — shows a specific user's UID, GID, and group memberships
+- getent passwd <user> — looks up a specific user's account entry from the system database
+- useradd -m -G — creates a user with a home directory and assigns supplementary groups in one step
+- passwd <user> — sets or changes a specific user's password
+- apt list --installed — lists every package currently installed on the system
+- apt list --upgradable — lists packages that have a newer version available
+- apt update && apt install -y — refreshes the package index and installs a package without a confirmation prompt
+- dpkg -l | grep — filters the installed package list to search for a specific package
+- apt autoremove — removes leftover dependencies no longer needed by anything
+- history — shows a list of previously run commands in the current shell session
+- printenv — displays all environment variables currently set
+- printenv HOME — displays the value of a single specific environment variable
+- echo $VAR — prints the value of a variable using shell expansion
+- export — sets a variable and makes it available to child processes and subshells
+- unset — removes a variable from the environment
+- env — displays the current environment, similar to printenv
+- source — runs a script in the current shell so its variables and changes persist
+- echo $PATH — prints the list of directories the shell searches for executable commands
+- export PATH=$PATH: — appends a new directory to the existing PATH for the current session
+- cat /etc/environment — displays system wide environment variables set at boot
+- nano ~/.bashrc — opens the per user shell configuration file for editing
+- source ~/.bashrc — reloads the shell configuration file in the current session without restarting
+- cat ~/.bash_profile — displays the contents of the login shell profile file
+- sudo nano /etc/environment — edits system wide environment variables that apply to all users
+- sudo nano /etc/bash.bashrc — edits the system wide bash configuration that applies to all users
+- alias — creates a shortcut name for a longer command
+- unalias — removes a previously defined alias
+- type — shows whether a command is a builtin, alias, function, or external binary
+- which — shows the file path of an executable command
+- whereis — shows the binary, source, and manual page locations for a command
+- vim <file> — opens a file in the Vim text editor, creates it if it doesn't exist
+- i (insert mode) — switches Vim into insert mode so typed characters are entered as text
+- Esc (command mode) — returns Vim to normal mode from insert mode
+- :w — saves the current file without quitting
+- :wq / :x — saves the file and quits Vim
+- :q! — quits Vim without saving, discarding any changes
+- dd — deletes (cuts) the entire current line
+- yy / p — yanks (copies) the current line, then pastes it below the cursor
+- :q — quits Vim, but refuses if there are unsaved changes
+- u / Ctrl+r — undoes the last change, or redoes an undone change
+- gg / G — jumps to the first line (gg) or last line (G) of the file
+- :10 (go to line) — jumps directly to a specific line number
+- / (search forward) — searches downward through the file for a pattern
+- ? (search backward) — searches upward through the file for a pattern
+- n / N — jumps to the next (n) or previous (N) search match
+- :%s/old/new/g — replaces every occurrence of a word with another across the whole file
+- dw — deletes a single word starting from the cursor
+- x — deletes a single character under the cursor
+- o / O — opens a new line below (o) or above (O) the current line and enters insert mode
+- ZZ — saves the file and quits Vim in one shortcut
+- grep — searches text for lines matching a pattern
+- grep -r — searches recursively through all files in a directory and its subfolders
+- grep -i — searches case insensitively
+- sort — sorts lines of text alphabetically
+- sort -n — sorts lines numerically instead of alphabetically
+- uniq — removes consecutive duplicate lines from sorted input
+- cut -d','-f — extracts specific columns from text, splitting on a chosen delimiter
+- awk '{print $1}' — prints a specific column from each line of text
+- sed 's/old/new/g' — replaces every occurrence of a pattern in text with a replacement
+- pipe chains (|) — connects the output of one command directly into the input of the next
+- ps aux — shows all running processes on the system with detailed resource usage
+- ps -ef — shows all running processes in a different format, including parent process IDs
+- ps -u — shows processes owned by a specific user
+- top — displays a live, updating view of running processes and system resource usage
+- htop — an interactive, colorized, more readable alternative to top
+- pgrep — finds the process ID(s) of running processes matching a name
+- pstree — displays running processes as a visual tree showing parent-child relationships
+- lsof -i — lists open network connections and which process is using them
+- jobs — lists background jobs running in the current shell session
+- nice / renice — sets or changes a process's scheduling priority
+- kill — sends a termination signal (SIGTERM by default) to a process by PID
+- kill -9 — sends SIGKILL, forcefully terminating a process immediately with no cleanup
+- kill -HUP — sends SIGHUP, often used to tell a running service to reload its configuration
+- killall — terminates all processes matching an exact process name
+- pkill — terminates processes matching a name pattern
+- fg — brings a background or suspended job to the foreground
+- bg — resumes a suspended job in the background
+- Ctrl+Z (suspend) — pauses a running foreground process without terminating it
+- nohup — runs a command so it ignores hangup signals and survives terminal logout
+- disown — removes a job from the shell's job table so it survives even if the shell closes
+- systemctl start — starts a service immediately
+- systemctl stop — stops a running service
+- systemctl restart — fully stops and starts a service again
+- systemctl reload — re-reads a service's configuration without fully restarting it
+- systemctl enable — sets a service to automatically start at boot
+- systemctl disable — removes a service from starting automatically at boot
+- systemctl enable --now — enables a service for boot and starts it immediately, in one command
+- systemctl status — shows a service's current state and recent log activity
+- systemctl is-active — checks whether a service is currently running
+- systemctl is-enabled — checks whether a service is set to start automatically at boot
+- systemctl list-units --type=service — lists all currently loaded service units on the system
+- systemctl list-units --state=failed — lists only services that failed to start correctly
+- systemctl daemon-reload — refreshes systemd's knowledge of unit files after manual changes
+- journalctl — displays the full systemd journal log
+- journalctl -f — follows the journal log live, showing new entries as they happen
+- journalctl -u — filters journal logs to a specific service unit
+- journalctl --since — filters journal logs to entries after a specific time
+- journalctl -p err — filters journal logs to error priority entries only
+- tail -f /var/log/syslog — follows the general system log file live
+- tail -f /var/log/auth.log — follows the authentication log file live
+- ps aux | grep — filters the full process list to search for a specific process
+- systemctl status <svc> — shows a specific service's current state and recent activity
+- journalctl -u <svc> --since today — shows today's log entries for a specific service
+- kill -0 (liveness check) — checks whether a process is still running without sending it a real signal
+- uptime — shows how long the system has been running and its load averages
+- free -h — shows memory and swap usage in human-readable form
+- vmstat — reports system performance statistics like CPU, memory, and IO over time
+- iostat — reports disk input/output statistics
+- watch — repeatedly re-runs a command at a set interval, refreshing the output live
+- crontab -e / crontab -l — edits or lists a user's scheduled cron jobs
+- ip a — shows all network interfaces and their assigned IP addresses
+- ip route — shows the system's routing table, including the default gateway
+- ping -c — sends a limited number of ICMP echo requests to test connectivity to a host
+- curl — transfers data from or to a URL, commonly used to fetch web content
+- curl -I — fetches only the HTTP response headers from a URL, not the body
+- wget — downloads files from a URL directly to disk
+- netstat -tulnp — lists listening TCP/UDP ports and the processes using them (older tool)
+- ss -tulnp — lists listening TCP/UDP ports and the processes using them (modern replacement for netstat)
+- hostname — displays the system's hostname
+- hostnamectl — displays detailed system identity info including hostname, OS, and kernel version
+- ssh — connects to a remote (or local) machine over a secure shell session
+- ssh -p — specifies a non-default port to connect through
+- ssh -i — specifies a particular private key file to authenticate with
+- ssh-keygen — generates a new public/private SSH key pair
+- ssh-copy-id — copies your public key to a remote host's authorized_keys file
+- scp — securely copies files between machines over SSH
+- sftp — opens an interactive secure file transfer session
+- rsync — synchronizes files between machines, only transferring what has changed
+- ~/.ssh/config — a config file that stores shortcuts and settings for specific SSH hosts
+- sshd_config hardening — refers to security settings in the SSH server config, like disabling root login or password auth
+- #!/bin/bash (shebang) — tells the system which interpreter should run the script
+- chmod +x script.sh — makes a script file executable
+- ./script.sh — runs an executable script from the current directory
+- VAR=value — assigns a value to a variable, no spaces allowed around the equals sign
+- $() command substitution — runs a command and inserts its output into a variable or string
+- read -p — prompts the user for input with a message, storing the response in a variable
+- if / elif / else / fi — a conditional block that runs code based on whether a condition is true
+- -gt / -lt / -eq — numeric comparison operators meaning greater than, less than, and equal to
+- for loop — repeats a block of code once for each item in a list
+- while loop — repeats a block of code as long as a condition remains true
+- function_name() { } — defines a reusable block of code that can be called by name
+- $1 / $2 positional args — refer to the first, second, etc. arguments passed to a script
+- $# / $* / $@ — represent the argument count, and all arguments as a string or list respectively
+- $0 — refers to the script's own filename as it was invoked
+- exit codes ($?) — the exit status of the last executed command, 0 for success, nonzero for failure
+- crontab syntax — the five field time format (minute, hour, day, month, weekday) used to schedule cron jobs
+- cron scheduling (0 * * * *) — a cron expression meaning run at the top of every hour
+- nohup script.sh & — runs a script in the background, detached so it survives terminal logout
+- trap — catches a signal (like Ctrl+C) and runs custom cleanup code before the script exits
+- logger — writes a custom message into the system log
+

@@ -1,0 +1,22 @@
+cat <<EOF >> .gitignore
+
+.terraform/
+
+*.tfstate
+
+*.tfstate.backup
+
+*.pem
+
+terraform.tfvars
+
+EOF
+
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+terraform_installed
+
+aws/
+
+

@@ -1,0 +1,10 @@
+- grep: Searches a file and prints out only the lines that contain the specified keyword (e.g., grep "Error" log.txt).
+- grep -r: Searches recursively through a folder and all its nested subfolders to find every single file containing that keyword. (e.g., grep -r "Error" .config)
+- grep -i: It ignores case sensitivity, matching both lowercase and uppercase patterns (e.g., grep -i "error" it will find "error", "Error", and "ERROR").
+- sort: Alphabetically sorts the lines of text in a file or stream from A to Z.
+- sort -n: orts the lines numerically rather than alphabetically. (Alphabetical sorting treats 10 as smaller than 2 because it starts with a 1; numerical sorting correctly places 2 before 10).
+- uniq: Filters out consecutive duplicate lines, leaving only unique rows. Crucial rule: uniq only looks at adjacent lines, so you must almost always run sort right before uniq to group identical lines together.
+- cut -d','-f: It splits text using a specific delimiter (-d) and extracts target fields (-f). An example is running "cut -d',' -f 2 data.csv". It will split a line by commas and prints out only the second column.
+- awk '{print $1}': A highly advanced programming language for text layout. In its simplest form shown here, it automatically splits a line by spaces or tabs and prints out the very first column/word ($1). It handles irregular whitespace much better than cut.
+- sed 's/old/new/g': The Stream Editor processes text line-by-line, automatically replacing a target word with a replacement. (s) is the substitute mode, (old) is the pattern to look for, (new) is the text to replace it with and (g) Global flag (replaces every match on the line, not just the first one).
+- pipe chains (|): Acts like a physical plumbing pipeline for text data. It catches the textual output of the command on its left and feeds it directly into the input of the command on its right. It allows you to build incredibly powerful custom text processing engines.

@@ -1,0 +1,10 @@
+- gg / G: Both command does identical works which is to teleport your cursor to the poles of your  documents.(gg)  will make it jump to the very fist line while (G) will make it jump to the very last line. 
+- :%s/old/new/g: This is a global search-and-replace pipeline. (%) means search the entire file. (s) means substitute. (old) is the text you want to get rid of. (new) is the replacement text. (g) means global (replace every single match on a line, not just the first one it hits). 
+- :10 (go to line); This will navigate your cursor to a specifc line number. In this case, it will navigate your cursor straight to number 10th line.
+- dw: This stands for delete word. It will delete any word that you cursor is currently in the front of.
+- / (search forward): Typing '/' followed by the word you want to find and press Enter. Vim will highlight and jump to the next forward occurrence of that text.
+- x: It deletes the single character directly underneath your cursor (like pressing the Delete key in a normal editor).
+- ? (search backward): It works exactly like /, but searches upward/backward from your cursor's current position to find older occurrences of the word.
+- o / O: It will drop you straight into Insert Mode on a brand-new blank line. o (lowercase) will open a new blank line below your current line. O (uppercase) will open a new blank line above your current line.
+- n / N: After using / or ? to search for a word, (n) jumps to the next match in the same direction. while (N) jumps to the previous match in the opposite direction.
+- ZZ: This is a very fast, colon free shortcut to save and exit. Holding shift and pressing z twise (ZZ) instantly writes any changes to disk and closes the vim. 

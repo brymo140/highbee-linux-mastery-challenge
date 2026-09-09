@@ -1,0 +1,10 @@
+- #!/bin/bash (shebang): This must be placed on the very first line of the script file. It tells the operating system exactly which interpreter to use which in this case is the bash shell to execute the code written below it. 
+- chmod +x script.sh: This grants execue permissions to the script file. By default, new text files cannot be run as programs so this command unlocks that capability.
+- ./script.sh: This command exceutes your script from the current directory. The ./ is rewured because the current folder is not on your system's global execution path.
+- VAR=value: This command creates a local variable to hold data. (e.g., NAME="Highbee").
+- $() command substitution: This command runs a terminal command inside a script and captures its textual output into a variable so you can use it later. (e.g., TODAY=$(date)).
+- read -p "prompt" VAR: This command pauses the script and asks the user to type an input via their keyboard. The -p flag displays a helpful prompt string, and the user's answer is saved into the variable.
+- if/elif/else/fi: This are the conditional workflow structure in bash. Every if block evaluates a condition and ends with fi.
+- -gt/-lt/-eq: Because Bash treats the standard < and > symbols as file redirection tools, it uses these specific flags to compare integers/numbers inside conditional brackets: (-gt) means Greater Than (e.g., (if [ $AGE -gt 18 ])), (-lt) means Less Than and (-eq) means Equal To.
+- for: This iterates through a fixed, specific list of items or files one by one.
+- while: This will continue running code repeatedly as long as a specific condition remains true (ideal for building infinite loops or monitoring a changing file).
